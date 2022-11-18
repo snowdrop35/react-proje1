@@ -26,7 +26,7 @@ function App() {
             <h1>Hava Durumu</h1>
             <input  
           onChange={(e) => setSearch(e.target.value)}
-          id="searchBar" type="text" placeholder="şehir giriniz"/>
+          id="searchBar" type="text" placeholder="Şehir Giriniz" />
         <City city={city} />
        </div></div>
       );

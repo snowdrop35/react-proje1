@@ -8,8 +8,8 @@ const City = ({ city }) => {
     <div>
       <h2>{gun + "/" + ay + "/" + yil}</h2>
       <div className='city'> {city?.name}</div>
-      <div className='temp'> Sıcaklık: {city?.main.temp} </div> 
-     <div className='desc'> {city?.weather[0].description} </div>
+      <div className='temp'>  {city?.main.temp } <span>°C</span></div>      
+      <div className='desc'> {city?.weather[0].description} </div>
     
  
     </div>
